@@ -1,33 +1,27 @@
 <template>
-<szimg>
-  <swiper :imgSrcs="szimg">
-    <swiper-item v-for="item in szimg">
-    </swiper-item>
-  </swiper>
-</szimg>
+  <div>
+    <titlebar></titlebar>
+    <icon></icon>
+    <fswiper></fswiper>
+    <bottombar></bottombar>
+  </div>
 </template>
 
 <script>
-import {Swiper,SwiperItem} from "@/components/swiper/Swiper";
-import szimg from "@/assets/img/szimg/szimg";
+import fswiper from "@/views/first/firstchild/fswiper";
+import titlebar from "@/views/first/firstchild/titlebar";
+import icon from "@/views/first/firstchild/icon";
+import bottombar from "@/views/first/firstchild/bottombar";
 export default {
   name: "First",
   components:{
-    Swiper,
-    SwiperItem,
-    szimg
-  },
-  props:{
-    szimg:{
-      type:Array,
-      default(){
-        return []
-      }
-    }
+    fswiper,
+    titlebar,
+    icon,
+    bottombar
   },
 }
 </script>
 
 <style scoped>
-
 </style>

@@ -1,6 +1,5 @@
 <template>
   <szimg></szimg>
-
 </template>
 
 <script>

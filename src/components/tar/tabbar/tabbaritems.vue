@@ -1,7 +1,6 @@
 <template>
     <div class="tabbar-items" @click="up">
-      <div v-if="!isActive"><slot name="tabbar-icon"></slot></div>
-      <div v-else><slot name="tabbar-icon-active"></slot></div>
+      <div v-if="!isActive"></div>
       <div :style="textcolor"><slot name="tabbar-text"></slot></div>
     </div>
 </template>

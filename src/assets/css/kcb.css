@@ -1,0 +1,41 @@
+#kcb{
+  width: 100%;
+}
+.content{
+  width: 90%;
+  height: 447px;
+  left: 4%;
+  position: absolute;
+  top: 7%;
+  overflow-y: scroll;/*设置滚动*/
+  background-color: #f1f1fa;
+}
+table{
+  border-collapse: collapse;
+  border: 1px black solid;
+  text-align: center;
+  width: 70%;
+  left: 10%;
+  position: absolute;
+  top: 7%;
+  font-size: 11px;
+}
+table>tr>td{
+  border: 1px black solid;
+  background-color: #fdf6f6;
+}
+table>tr>th{
+  border: 1px black solid;
+  background-color: #e2dfdf;
+}
+#price{
+  position: absolute;
+  left: 84%;
+  top: 54%;
+}
+#meg{
+  left: 40%;
+  top:2%;
+  position: absolute;
+  color: silver;
+}

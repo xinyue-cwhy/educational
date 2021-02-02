@@ -1,10 +1,12 @@
 <template>
-$END$
+  <div>
+    <slot></slot>
+  </div>
 </template>
 
 <script>
 export default {
-name: "lf_first"
+  name: "lf_first"
 }
 </script>
 
