@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: './',
   devServer: {
     proxy: { // 设置代理
       '/api': {
