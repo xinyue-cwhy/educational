@@ -86,7 +86,7 @@ router.post('/cjselect', (req, res) => {
 });
 
 // 查询学生用户
-router.get('/selectUser', (req, res) => {
+router.post('/selectUser', (req, res) => {
   let sqlStr = sql.user.selects;
   let params = req.body;
   let conn = new DBHelper().getConn();

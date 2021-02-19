@@ -77,7 +77,7 @@ export default {
           }else {
             url=this.url[1].turl
           }
-          axios.get(url,{
+          axios.post(url,{
             name,pwd
           }).then(res=>{
             if(res.data.length!=0){
